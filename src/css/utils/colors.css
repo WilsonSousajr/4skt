@@ -1,0 +1,84 @@
+:root{
+  --color-0: #ffff;
+  --color-1: #D4D4D4;
+  --color-2: #BFBFBF;
+  --color-3: #ABABAB;
+  --color-4: #909090;
+  --color-5: #6F6F6F;
+  --color-6: #585858;
+  --color-7: #444444;
+  --color-8: #333333;
+  --color-9: #1F1F1F;
+  --color-10: #363636;
+  --color-11: #121212;
+  --color-12: #060606;
+
+  --color-p1: #1CDC69;
+  --color-p2: #66FFA3;
+  --color-p3: #43FF8E;
+  --color-p4: #30F37E;
+  --color-p5: #28B962;
+  --color-p6: #2B9556;
+  --color-p7: #2C8550;
+  --color-p8: #245B3A;
+  --color-p9: #1B3E29;
+  --color-p10: #14291D;
+  --color-p11: #0F1D15;
+  --color-p12: #0C140F;
+}
+
+.color-0{
+  color: var(--color-0);
+}
+
+.color-1{
+  color: var(--color-1);
+}
+
+.color-2{
+  color: var(--color-2);
+}
+
+.color-3{
+  color: var(--color-3);
+}
+
+.color-4{
+  color: var(--color-4);
+}
+
+.color-5{
+  color: var(--color-5);
+}
+
+.color-6{
+  color: var(--color-6);
+}
+
+.color-7{
+  color: var(--color-7);
+}
+
+.color-8{
+  color: var(--color-8);
+}
+
+.color-9{
+  color: var(--color-9);
+}
+
+.color-10{
+  color: var(--color-10);
+}
+
+.color-11{
+  color: var(--color-11);
+}
+
+.color-12{
+  color: var(--color-12);
+}
+
+.color-p1{
+  color: #1CDC69;
+}
