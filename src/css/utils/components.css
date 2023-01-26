@@ -1,3 +1,10 @@
+.container{
+  max-width: 1200px;
+  padding: 0px 20px;
+  margin: 0 auto;
+}
+
+
 /* Button */
 .button{
   display: inline-block;
