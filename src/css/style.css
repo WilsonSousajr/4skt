@@ -10,4 +10,7 @@
 /* Home */
 @import "./home/intro.css";
 
+/* Skates */
+@import "./skates/skate-list.css"
+
 
