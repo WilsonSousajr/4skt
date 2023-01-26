@@ -9,8 +9,11 @@
 
 /* Home */
 @import "./home/intro.css";
+@import "./home/tech.css";
 
 /* Skates */
 @import "./skates/skate-list.css"
+
+
 
 
