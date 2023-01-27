@@ -15,11 +15,22 @@
   color: #0C140F;
   border-radius: 4px;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  transition: .3s;
+  max-width: max-content;
 }
 
 .button:hover{
   background: linear-gradient(#04ee62, #13c95c);
+}
+
+.button.second{
+  background: var(--color-10);
+  color: var(--color-3);
   transition: .3s;
+}
+
+.button.second:hover{
+  background: var(--color-9);
 }
 
 @media(max-width: 600px){
