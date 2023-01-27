@@ -20,6 +20,8 @@
 
 /* Subscriptions */
 @import "./subscriptions/subscriptions.css";
+@import "./subscriptions/advantages.css";
+@import "./subscriptions/questions.css";
 
 /* Terms and Conditions */
 @import "./terms/terms.css"
