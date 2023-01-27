@@ -18,7 +18,10 @@
 @import "./skates/skate-list.css";
 
 /* Subscriptions */
-@import "./subscriptions/subscriptions.css"
+@import "./subscriptions/subscriptions.css";
+
+/* Terms and Conditions */
+@import "./terms/terms.css"
 
 
 
