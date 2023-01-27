@@ -16,6 +16,7 @@
 
 /* Skates */
 @import "./skates/skate-list.css";
+@import "./skates/skates.css";
 
 /* Subscriptions */
 @import "./subscriptions/subscriptions.css";
