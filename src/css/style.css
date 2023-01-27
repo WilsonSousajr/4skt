@@ -14,7 +14,10 @@
 @import "./home/testimony.css";
 
 /* Skates */
-@import "./skates/skate-list.css"
+@import "./skates/skate-list.css";
+
+/* Subscriptions */
+@import "./subscriptions/subscriptions.css"
 
 
 
