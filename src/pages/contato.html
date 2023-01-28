@@ -12,7 +12,7 @@
   <meta name="description" content="Skates feitos com matérial de alto nível, feitos sob medida para você.
   Domine as pistas do mundo com 4skt.">
 </head>
-<body>
+<body id="contact">
   <header class="header-bg">
     <div id="header" class="header container">
       <a href="../../index.html"><img src="../../assets/icons/logo/logo.svg" alt="logo for skate"></a>
@@ -26,8 +26,97 @@
     </div>
   </header>
   <main id="main" class="main">
-    
+    <div class="title-bg">
+      <div class="title container">
+        <p class="font-2-l-b color-5">Respostas em até 24h</p>
+        <h1 class="font-1-xxl color-0">nosso contato<span class="color-p1">.</span></h1>
+      </div>
+    </div>
+
+    <div class="contact container">
+      <section class="contact-data" aria-label="Endereço">
+        <h2 class="font-1-m color-0">Loja Online</h2>
+        <div class="contact-adress font-2-s color-4">
+          <p>Rua Lalonge. 34 - Alameda</p>
+          <p>Florianopólis - SC</p>
+        </div>
+        <address class="contact-ways font-2-s color-4">
+          <a href="mailto:contato@forskate.com">contato@forskate.com</a>
+          <a href="mailto:vendas@forskate.com">vendas@forskate.com</a>
+          <a href="mailto:assistencia@forskate.com">assistencia@forskate.com</a>
+          <a href="tel:+556199999999">+55 61 9999-9999</a>
+        </address>
+        <div class="contact-social">
+          <a href="./">
+            <img src="../../assets/icons/social/instagramgreen.svg" alt="Instagram">
+          </a>
+          <a href="./">
+            <img src="../../assets/icons/social/facebookgreen.svg" alt="Facebook">
+          </a>
+          <a href="./">
+            <img src="../../assets/icons/social/youtubegreen.svg" alt="Youtube">
+          </a>
+        </div>
+      </section>
+      <section class="contact-form" aria-label="Formulário">
+        <form class="form" action="./contato.html">
+          <div>
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" placeholder="Seu nome">
+          </div>
+          <div>
+            <label for="tel">Telefone</label>
+            <input type="text" name="tel" id="tel" placeholder="(99) 9999-9999">
+          </div>
+          <div class="col-2">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com">
+          </div>
+          <div class="col-2">
+            <label for="message">Mensagem</label>
+            <textarea rows="5" name="message" id="message"></textarea>
+          </div>
+          <button class="button col-2">Enviar mensagem</button>
+        </form>
+      </section>
+    </div>
   </main>
+
+  <article class="stores container">
+    <h2 class="font-1-xxl">Lojas locais<span class="color-p1">.</span></h2>
+    <div class="stores-item">
+      <img src="../../assets/images/rio.jpg" alt="Mapa marcando o endereço da 4skt no Rio de Janeiro em Rua Ali Perto, 25">
+      <div class="stores-content">
+        <h3 class="font-1-xl">Rio de Janeiro</h3>
+        <div class="stores-data font-2-s color-8">
+          <p>Rua Ali Perto,25</p>
+          <p>Rio de Janeiro - RJ</p>
+        </div>
+        <div class="stores-data font-2-s color-8">
+          <a href="mailto:rio@forskate.com">rio@forskate.com</a>
+            <a href="tel:+556199999999">+55 61 9999-9999</a>
+        </div>
+        <p class="stores-time font-1-s"><img src="../../assets/icons/contact/location.svg">08-18h de seg á dom</p>
+      </div> 
+    </div>
+
+    <div class="stores-item">
+        <img src="../../assets/images/floripa.jpg" alt="Mapa marcando o endereço da 4skt em Florianopólis em Rua La Longe, 34">
+        <div class="stores-content">
+          <h3 class="font-1-xl">Florianópolis</h3>
+          <div class="stores-data font-2-s color-8">
+          <p>Rua La Longe, 34</p>
+          <p>Florianópolis - SC</p>
+        </div>
+        <div class="stores-data font-2-s color-8">
+          <a href="mailto:sc@forskate.com">sc@forskate.com</a>
+            <a href="tel:+556199999999">+55 61 9999-9999</a>
+        </div>
+        <p class="stores-time font-1-s"><img src="../../assets/icons/contact/location.svg">08-18h de seg á dom</p>
+      </div>
+    </div>
+  </article>
+
   <footer id="footer" class="footer-bg">
     <div class="footer container">
       <img src="../../assets/icons/logo/logo.svg" alt="4Skt">
