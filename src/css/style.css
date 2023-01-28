@@ -6,7 +6,7 @@
 
 /* Components */
 @import "./utils/components.css";
-
+@import "./utils/form.css";
 
 /* Home */
 @import "./home/intro.css";
@@ -28,7 +28,11 @@
 @import "./subscriptions/questions.css";
 
 /* Terms and Conditions */
-@import "./terms/terms.css"
+@import "./terms/terms.css";
+
+/* Contact */
+@import "./contact/contact.css";
+@import "./contact/stores.css";
 
 
 
