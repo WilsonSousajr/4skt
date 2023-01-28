@@ -18,6 +18,10 @@
 @import "./skates/skate-list.css";
 @import "./skates/skates.css";
 
+/* Skate */
+@import "./skate/skate.css";
+@import "./skate/sub-skate.css";
+
 /* Subscriptions */
 @import "./subscriptions/subscriptions.css";
 @import "./subscriptions/advantages.css";
