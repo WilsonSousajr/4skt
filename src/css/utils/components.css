@@ -91,6 +91,10 @@
   padding-bottom: 60px;
 }
 
+.title{
+  background: url("../../../assets/icons/decorations/dec-dark.svg") no-repeat top right 20px;
+}
+
 .title p{
   margin-bottom: 4px;
 }

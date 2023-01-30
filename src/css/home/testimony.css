@@ -15,6 +15,7 @@
 .testimony-content{
 	padding: 40px 80px;
 	align-self: end;
+	background: url("../../../assets/icons/decorations/decoration.svg") no-repeat bottom 40px right 40px;
 }
 
 .testimony-content p{
@@ -62,12 +63,8 @@
 	}
 }
 
-@media(min-width: 1400px){
-	.testimony p{
-		font-size: 3rem;
-	}
-
-	.testimony span{
-		font-size: 2rem;
+@media(min-width: 1200px){
+	.testimony img{
+		max-height: 520px;
 	}
 }
