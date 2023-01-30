@@ -161,7 +161,7 @@
 
 	.budget-product{
 		border-radius: 5px 5px 0 0;
-		background: var(--color-12)
+		background: var(--color-12);
 	}
 
 	.budget-data{
@@ -172,5 +172,9 @@
 @media(max-width: 400px){
 	.budget-product{
 		grid-template-columns: 1fr;
+	}
+
+	.budget-data{
+		background: var(--color-0);	
 	}
 }
