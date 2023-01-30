@@ -1,3 +1,4 @@
+// Active menu links
 const links = document.querySelectorAll(".header-menu a")
 
 function activeLink(link){
@@ -10,3 +11,17 @@ function activeLink(link){
 }
 
 links.forEach(activeLink)
+
+// Active budget items
+
+const parameters = new URLSearchParams(location.search)
+
+function activeProduct(parameter){
+	const element = document.querySelector(`#${parameter}`)
+	if(element){
+		element.checked = true
+	}
+}
+
+
+parameters.forEach(activeProduct)
