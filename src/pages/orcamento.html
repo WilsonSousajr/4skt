@@ -12,7 +12,7 @@
   <meta name="description" content="Skates feitos com matérial de alto nível, feitos sob medida para você.
   Domine as pistas do mundo com 4skt.">
 </head>
-<body>
+<body id="budget">
   <header class="header-bg">
     <div id="header" class="header container">
       <a href="../../index.html"><img src="../../assets/icons/logo/logo.svg" alt="logo for skate"></a>
@@ -26,7 +26,119 @@
     </div>
   </header>
   <main id="main" class="main">
-    
+    <div class="title-bg">
+      <div class="title container">
+        <p class="font-2-l-b color-5">Cotações no seu email</p>
+        <h1 class="font-1-xxl color-0">Solicite um orçamento<span class="color-p1">.</span></h1>
+      </div>
+    </div>
+
+    <form class="budget container" action="./" class="budget" >
+      <div class="budget-product">
+        <h2 class="font-1-xs color-5">4skt ou assinatura?</h2>
+
+        <input type="radio" name="type" value="skt" id="skt">
+        <label for="skt">4Skt</label>
+
+        <input type="radio" name="type" value="subscription" id="subscription">
+        <label for="subscription">Assinatura</label>
+
+        <div class="budget-content" id="budget-4skt">
+          <h2 class="font-1-xs color-5">Escolha o seu</h2>
+
+          <input type="radio" name="product" value="streetwave" id="streetwave">
+          <label for="streetwave">Street Wave <span>R$279,99</span> </label>
+          <div class="budget-detail">
+            <ul class="font-1-xs color-7">
+              <li><img src="../../assets/icons/skates/grafeno.svg">Rodas de Grafeno</li>
+              <li><img src="../../assets/icons/skates/shape.svg">Shape de Carvalho</li>
+              <li><img src="../../assets/icons/skates/truck.svg">Truck de aço</li>
+            </ul>
+            <img src="../../assets/images/streetwave.jpg" alt="Street Wave">
+          </div>
+
+          <input type="radio" name="product" value="dgkultra" id="dgkultra">
+          <label for="dgkultra">DGK Ultra <span>R$399,99</span> </label>
+          <div class="budget-detail">
+            <ul class="font-1-xs color-7">
+              <li><img src="../../assets/icons/skates/grafeno.svg">Rodas de Grafeno</li>
+              <li><img src="../../assets/icons/skates/shape.svg">Shape de Carvalho</li>
+              <li><img src="../../assets/icons/skates/truck.svg">Truck de aço</li>
+            </ul>
+            <img src="../../assets/images/dgkultra.jpg" alt="DGK Ultra">
+          </div>
+
+
+          <input type="radio" name="product" value="danecosmic" id="danecosmic">
+          <label for="danecosmic">Dane Cosmic <span>R$499,99</span> </label>
+          <div class="budget-detail">
+            <ul class="font-1-xs color-7">
+              <li><img src="../../assets/icons/skates/grafeno.svg">Rodas de Grafeno</li>
+              <li><img src="../../assets/icons/skates/shape.svg">Shape de Carvalho</li>
+              <li><img src="../../assets/icons/skates/truck.svg">Truck de aço</li>
+            </ul>
+            <img src="../../assets/images/danecosmic.jpg" alt="Dane Cosmic">
+          </div>
+
+        </div>
+
+        <div class="budget-content" id="budget-subscription">
+          <h2 class="font-1-xs color-5">Escolha o plano</h2>
+
+          <input type="radio" name="product" value="basic" id="basic">
+          <label for="basic">Basic <span>R$199,99</span></label>
+
+          <input type="radio" name="product" value="pro" id="pro">
+          <label for="pro">Pro <span>R$299,99</span></label>
+        </div>
+      </div>
+      <div class="budget-data form">
+        <h2 class="font-1-xs color-9 col-2">dados pessoais</h2>
+        <div>
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="last-name">Sobrenome</label>
+            <input type="text" name="last-name" id="last-name">
+        </div>
+        <div class="col-2">
+            <label for="cpf">CPF</label>
+            <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00">
+        </div>
+        <div class="col-2">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <h2 class="font-1-xs color-9 col-2">entrega</h2>
+        <div>
+            <label for="cep">CEP</label>
+            <input type="text" name="cep" id="cep">
+        </div>
+        <div>
+            <label for="place">Logradouro</label>
+            <input type="text" name="place" id="place" placeholder="Rua, Avenida...">
+        </div>
+        <div>
+            <label for="city">Cidade</label>
+            <input type="text" name="city" id="city">
+        </div>
+        <div>
+            <label for="number">Número</label>
+            <input type="text" name="number" id="number">
+        </div>
+        <div>
+            <label for="district">Bairro</label>
+            <input type="text" name="district" id="district">
+        </div>
+        <div>
+            <label for="state">Estado</label>
+            <input type="text" name="state" id="state">
+        </div>
+        <button class="button col-2">Solicitar orçamento</button>
+      </div>
+    </form>
   </main>
   <footer id="footer" class="footer-bg">
     <div class="footer container">
