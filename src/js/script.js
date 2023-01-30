@@ -25,3 +25,23 @@ function activeProduct(parameter){
 
 
 parameters.forEach(activeProduct)
+
+// Toggle questions
+
+const questions = document.querySelectorAll('.questions button')
+
+function activeQuestion(event){
+	const question = event.currentTarget;
+	const controls = question.getAttribute('aria-controls')
+	const answer = document.querySelector(`#${controls}`)
+	const active = answer.classList.contains('activated')
+
+	answer.classList.toggle('activated')
+	question.setAttribute('aria-expanded', active)
+}
+
+function eventQuestions(question){
+	question.addEventListener("click", activeQuestion)
+}
+
+questions.forEach(eventQuestions)
