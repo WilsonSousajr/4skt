@@ -51,11 +51,11 @@
 	transform: rotate(180deg);
 }
 
-.questions dd{
+.js .questions dd{
 	display: none;
 }
 
-.questions dd.activated{
+.js .questions dd.activated{
 	display: block;
 }
 
