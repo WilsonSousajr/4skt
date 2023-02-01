@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/WilsonSousajr/4skt">
-    <img src="/doc/logo/logo.svg" alt="Logo" width="80" height="80">
+    <img src="./doc/logo/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">4Skt</h3>
